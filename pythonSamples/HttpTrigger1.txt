@@ -12,6 +12,8 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
 
     #this is a comment3
 
+    #this is a comment4
+
     name = req.params.get('name')
     if not name:
         try:
